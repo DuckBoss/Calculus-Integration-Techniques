@@ -4,7 +4,7 @@ public class LeftRightTrapMid {
 	public static double M_PI = 3.14159265358979323846;
 	
 	public static void main(String[] args) {
-		double a = 0;
+	    double a = 0;
 	    double b = M_PI;
 	    int iterations = 1000;
 
