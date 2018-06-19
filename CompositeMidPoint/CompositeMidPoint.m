@@ -12,7 +12,6 @@ ddf = 2;
 f = @(x) (x*x); 
 
 hM = 0;
-hVol = 0;
 
 for i = 1:1:n
     xM = a + (i-1) * dx + dx/2;
