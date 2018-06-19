@@ -1,12 +1,12 @@
 format long
 
-a = 0.1; % a -> lower bound.
-b = pi; % b -> upper bound.
-aOld = 0; % aOld -> Keeps track of old area value.
-aNew = 0; % aNew -> Keeps track of new area value.
-n = 8; % n -> starting iterations.
-f = @(x) (x*x); % f -> the function being integrated.
-dx = (b-a)/n; % dx -> (upperbound - lowerbound / iterations). This is the change in x;
+a = 0.1;
+b = pi;
+aOld = 0;
+aNew = 0;
+n = 8;
+f = @(x) (x*x);.
+dx = (b-a)/n;
 
 hS = 0;
 
