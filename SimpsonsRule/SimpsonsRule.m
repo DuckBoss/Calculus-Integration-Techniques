@@ -13,7 +13,7 @@ hS = 0;
 
 for i = 1:2:n
     xS = a + (i-1) * dx;
-    hS = hS + f(xS) + 4 * f(xS + dx) + 2 * f(xS + dx);
+    hS = hS + f(xS) + 4 * f(xS + dx) + f(xS + 2 * dx);
 end
 aNew = hS * dx/3;
 
