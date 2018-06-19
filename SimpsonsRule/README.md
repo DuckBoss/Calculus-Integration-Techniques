@@ -1,1 +1,1 @@
-## This section includes a simple implementation of the Simpson Rule.
+## This section contains simple implementations of the Linear Average Rule.
